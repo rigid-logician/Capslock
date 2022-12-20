@@ -4842,7 +4842,7 @@
           ]
         },
         {
-          "description": "r = iTerm2",
+          "description": "r = Warp",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4857,12 +4857,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a iTerm"
+              "shell_command": "open -a Warp"
             }
           ]
         },
         {
-          "description": "command + t = Mimestream",
+          "description": "command + t = Things3",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4878,7 +4878,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Mimestream"
+              "shell_command": "open -a Things3"
             }
           ]
         },

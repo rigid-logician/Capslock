@@ -3891,7 +3891,7 @@ rules:
         to: [{ shell_command: open -a Arc }]
 
       #==========================================================#
-      # ( r ) --> iTerm2 / Slack / Terminal                     #
+      # ( r ) --> Warp / Slack / Terminal                     #
       #==========================================================#
       - description: "command + r = Slack"
         type: basic
@@ -3917,7 +3917,7 @@ rules:
       #   from: { key_code: r, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
       #   to: [ { shell_command: open -a terminal } ]
 
-      - description: "r = iTerm2"
+      - description: "r = Warp"
         type: basic
         from:
           {
@@ -3928,12 +3928,12 @@ rules:
                   [right_command, right_control, right_shift, right_option],
               },
           }
-        to: [{ shell_command: open -a iTerm }]
+        to: [{ shell_command: open -a Warp }]
 
       #==========================================================#
-      # ( t ) --> vscode / typora / Logseq                        #
+      # ( t ) --> vscode / Things3 / ?                            #
       #==========================================================#
-      - description: "command + t = Mimestream"
+      - description: "command + t = Things3"
         type: basic
         from:
           {
@@ -3950,7 +3950,7 @@ rules:
                   ],
               },
           }
-        to: [{ shell_command: open -a Mimestream }]
+        to: [{ shell_command: open -a Things3 }]
 
       # - description: 'option + t = Logseq'
       #   type: basic
